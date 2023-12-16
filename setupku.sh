@@ -206,7 +206,7 @@ echo "   - Trojan WS               : 443" | tee -a log-install.txt
 echo "   - Trojan GO               : 443" | tee -a log-install.txt
 echo "   - Sodosok WS/GRPC         : 443" | tee -a log-install.txt
 echo "   - slowdns                 : 443,80,8080,53,5300" | tee -a log-install.txt
-echo "   - Udp Custom             : 1-65535"           |  tee -a log-install.txt
+echo "   - Udp Custom              : 1-65535"           |  tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "   >>> Server Information & Other Features"  | tee -a log-install.txt
 echo "   - Timezone                : Asia/Jakarta (GMT +7)"  | tee -a log-install.txt
