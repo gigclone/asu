@@ -1,5 +1,6 @@
 #!/bin/bash
 # // script credit by CyberVPN
+# // Moded By Boss Muda
 # // ini adalah script autoinstall ssh multiport untuk instalasi vpn server dan tunneling service
 MYIP=$(curl -sS ipv4.icanhazip.com)
 red='\e[1;31m'
@@ -90,7 +91,7 @@ echo -e "$green      Install SSH / WS               $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
 clear
-wget https://raw.githubusercontent.com/gigclone/asu/main/ssh/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
+wget https://raw.githubusercontent.com/gigclone/asu/main/ssh-vpn1.sh && chmod +x ssh-vpn1.sh && ./ssh-vpn1.sh
 sleep 2
 clear
 wget https://raw.githubusercontent.com/gigclone/asu/main/nginx-ssl.sh && chmod +x nginx-ssl.sh && ./nginx-ssl.sh
