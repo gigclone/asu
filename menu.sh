@@ -66,8 +66,8 @@ export Server_IP="underfined"
 export Script_Mode="Stable"
 export Auther=".geovpn"
 export MYIP=$( curl -s https://ipinfo.io/ip/ )
-Name=$(curl -sS https://raw.githubusercontent.com/AndyyudaVPN/permission/main/ip | grep $MYIP | awk '{print $2}')
-Exp=$(curl -sS https://raw.githubusercontent.com/AndyyudaVPN/permission/main/ip | grep $MYIP | awk '{print $3}')
+Name=$(curl -sS https://raw.githubusercontent.com/gigclome/asu/main/izin | grep $MYIP | awk '{print $2}')
+Exp=$(curl -sS https://raw.githubusercontent.com/gigclone/asu/main/izin | grep $MYIP | awk '{print $3}')
 
 # // Root Checking
 if [ "${EUID}" -ne 0 ]; then
@@ -199,15 +199,15 @@ echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━�
 echo -e "\E[39;1;92m                     ⇱ MENU SERVICE ⇲                         \E[0m"
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo -e ""
-echo -e " ${BIWhite}[01]${NC} ${BIWhite}[${NC}${BLUE}SSH MENU${NC}${BIWhite}]${NC}   ${BIWhite}[10]${NC} ${BIWhite}[${NC}${BLUE}RUNING${NC}${BIWhite}]${NC}  "
-echo -e " ${BIWhite}[02]${NC} ${BIWhite}[${NC}${BLUE}VMESS MENU${NC}${BIWhite}]${NC} ${BIWhite}[11]${NC} ${BIWhite}[${NC}${BLUE}GENSSL${NC}${BIWhite}]${NC}  "
-echo -e " ${BIWhite}[03]${NC} ${BIWhite}[${NC}${BLUE}VLESS MENU${NC}${BIWhite}]${NC} ${BIWhite}[12]${NC} ${BIWhite}[${NC}${BLUE}AUTO BACKUP${NC}${BIWhite}]${NC} "
-echo -e " ${BIWhite}[04]${NC} ${BIWhite}[${NC}${BLUE}TROJAN MENU${NC}${BIWhite}]${NC}${BIWhite}[13]${NC} ${BIWhite}[${NC}${BLUE}CEK SPEED${NC}${BIWhite}]${NC} "
-echo -e " ${BIWhite}[05]${NC} ${BIWhite}[${NC}${BLUE}SOCKS MENU${NC}${BIWhite}]${NC} ${BIWhite}[14]${NC} ${BIWhite}[${NC}${BLUE}LIMIT SPEED${NC}${BIWhite}]${NC}"
-echo -e " ${BIWhite}[06]${NC} ${BIWhite}[${NC}${BLUE}REBOOT${NC}${BIWhite}]${NC}     ${BIWhite}[15]${NC} ${BIWhite}[${NC}${BLUE}SSH BANNER${NC}${BIWhite}]${NC} "
-echo -e " ${BIWhite}[07]${NC} ${BIWhite}[${NC}${BLUE}TRIAL${NC}${BIWhite}]${NC}      ${BIWhite}[16]${NC} ${BIWhite}[${NC}${BLUE}ADD HOST${NC}${BIWhite}]${NC}  "
-echo -e " ${BIWhite}[08]${NC} ${BIWhite}[${NC}${BLUE}RESTART${NC}${BIWhite}]${NC}    ${BIWhite}[17]${NC} ${BIWhite}[${NC}${BLUE}CLEAR LOG${NC}${BIWhite}]${NC}   "
-echo -e " ${BIWhite}[09]${NC} ${BIWhite}[${NC}${BLUE}WEBMIN${NC}${BIWhite}]${NC}     ${BIWhite}[18]${NC} ${BIWhite}[${NC}${BLUE}LAGI DI PIKIRKAN${NC}${BIWhite}]${NC}   "
+echo -e " ${BIWhite}[01]${NC} ${BIWhite}[${NC}${BIGreen}SSH MENU${NC}${BIWhite}]${NC}         ${BIWhite}[10]${NC} ${BIWhite}[${NC}${BIGreen}RUNING${NC}${BIWhite}]${NC}  "
+echo -e " ${BIWhite}[02]${NC} ${BIWhite}[${NC}${BIGreen}VMESS MENU${NC}${BIWhite}]${NC}       ${BIWhite}[11]${NC} ${BIWhite}[${NC}${BIGreen}GENSSL${NC}${BIWhite}]${NC}  "
+echo -e " ${BIWhite}[03]${NC} ${BIWhite}[${NC}${BIGreen}VLESS MENU${NC}${BIWhite}]${NC}       ${BIWhite}[12]${NC} ${BIWhite}[${NC}${BIGreen}AUTO BACKUP${NC}${BIWhite}]${NC} "
+echo -e " ${BIWhite}[04]${NC} ${BIWhite}[${NC}${BIGreen}TROJAN MENU${NC}${BIWhite}]${NC}      ${BIWhite}[13]${NC} ${BIWhite}[${NC}${BIGreen}CEK SPEED${NC}${BIWhite}]${NC} "
+echo -e " ${BIWhite}[05]${NC} ${BIWhite}[${NC}${BIGreen}SOCKS MENU${NC}${BIWhite}]${NC}       ${BIWhite}[14]${NC} ${BIWhite}[${NC}${BIGreen}LIMIT SPEED${NC}${BIWhite}]${NC}"
+echo -e " ${BIWhite}[06]${NC} ${BIWhite}[${NC}${BIGreen}REBOOT${NC}${BIWhite}]${NC}           ${BIWhite}[15]${NC} ${BIWhite}[${NC}${BIGreen}SSH BANNER${NC}${BIWhite}]${NC} "
+echo -e " ${BIWhite}[07]${NC} ${BIWhite}[${NC}${BIGreen}TRIAL${NC}${BIWhite}]${NC}            ${BIWhite}[16]${NC} ${BIWhite}[${NC}${BIGreen}ADD HOST${NC}${BIWhite}]${NC}  "
+echo -e " ${BIWhite}[08]${NC} ${BIWhite}[${NC}${BIGreen}RESTART${NC}${BIWhite}]${NC}          ${BIWhite}[17]${NC} ${BIWhite}[${NC}${BIGreen}CLEAR LOG${NC}${BIWhite}]${NC}   "
+echo -e " ${BIWhite}[09]${NC} ${BIWhite}[${NC}${BIGreen}WEBMIN${NC}${BIWhite}]${NC}           ${BIWhite}[18]${NC} ${BIWhite}[${NC}${BIGreen}LAGI DI PIKIRKAN${NC}${BIWhite}]${NC}   "
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 
 echo -e "${BICyan}┌──────────────────────────────────────────────────┐${NC}"
