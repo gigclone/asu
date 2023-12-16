@@ -202,7 +202,7 @@ echo -e ""
 echo -e " ${BIWhite}[01]${NC} ${BIWhite}[${NC}${BIGreen}SSH MENU${NC}${BIWhite}]${NC}         ${BIWhite}[10]${NC} ${BIWhite}[${NC}${BIGreen}RUNING${NC}${BIWhite}]${NC}  "
 echo -e " ${BIWhite}[02]${NC} ${BIWhite}[${NC}${BIGreen}VMESS MENU${NC}${BIWhite}]${NC}       ${BIWhite}[11]${NC} ${BIWhite}[${NC}${BIGreen}GENSSL${NC}${BIWhite}]${NC}  "
 echo -e " ${BIWhite}[03]${NC} ${BIWhite}[${NC}${BIGreen}VLESS MENU${NC}${BIWhite}]${NC}       ${BIWhite}[12]${NC} ${BIWhite}[${NC}${BIGreen}AUTO BACKUP${NC}${BIWhite}]${NC} "
-echo -e " ${BIWhite}[04]${NC} ${BIWhite}[${NC}${BIGreen}TROJAN MENU${NC}${BIWhite}]${NC}      ${BIWhite}[13]${NC} ${BIWhite}[${NC}${BIGreen}CEK SPEED${NC}${BIWhite}]${NC} "
+echo -e " ${BIWhite}[04]${NC} ${BIWhite}[${NC}${BIGreen}TROJAN MENU${NC}${BIWhite}]${NC}      ${BIWhite}[13]${NC} ${BIWhite}[${NC}${BIGreen}CEK SPEED${NC}${BIWhite}]${NC} eror"
 echo -e " ${BIWhite}[05]${NC} ${BIWhite}[${NC}${BIGreen}SOCKS MENU${NC}${BIWhite}]${NC}       ${BIWhite}[14]${NC} ${BIWhite}[${NC}${BIGreen}LIMIT SPEED${NC}${BIWhite}]${NC}"
 echo -e " ${BIWhite}[06]${NC} ${BIWhite}[${NC}${BIGreen}REBOOT${NC}${BIWhite}]${NC}           ${BIWhite}[15]${NC} ${BIWhite}[${NC}${BIGreen}SSH BANNER${NC}${BIWhite}]${NC} "
 echo -e " ${BIWhite}[07]${NC} ${BIWhite}[${NC}${BIGreen}TRIAL${NC}${BIWhite}]${NC}            ${BIWhite}[16]${NC} ${BIWhite}[${NC}${BIGreen}ADD HOST${NC}${BIWhite}]${NC}  "
@@ -233,7 +233,7 @@ case $opt in
 10) clear ; running ;;
 11) clear ; genssl ;;
 12) clear ; autobackup ;
-13) clear ; cek-speed ;;
+#13) clear ; cek-speed ;;
 14) clear ; limit-speed ;;
 15) clear ; nano /etc/issue.net ;;
 16) clear ; addhost ;;
