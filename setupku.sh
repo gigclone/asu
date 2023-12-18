@@ -110,7 +110,7 @@ cd /usr/bin
 wget -O xp "https://raw.githubusercontent.com/gigclone/asu/main/xp.sh"
 chmod +x xp
 sleep 1
-#wget -q -O /usr/bin/notramcpu "https://raw.githubusercontent.com/AndyyudaVPN/xray-ws/main/Finaleuy/notramcpu" && chmod +x /usr/bin/notramcpu
+wget -q -O /usr/bin/notramcpu "https://raw.githubusercontent.com/gigclone/asu/main/notramcpu" && chmod +x /usr/bin/notramcpu
 
 cd
 #remove log 
