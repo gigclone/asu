@@ -132,7 +132,7 @@ echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━�
 echo -e "$green      Install slowdns              $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
-wget -q -O slowdns.sh https://raw.githubusercontent.com/gigclone/asu/main/udp/slowdns/slowdns.sh && chmod +x slowdns.sh && ./slowdns.sh
+wget -q -O slowdns.sh https://raw.githubusercontent.com/Andyvpn/Autoscript-by-azi/main/autoscript-ssh-slowdns-main/slowdns.sh && chmod +x slowdns.sh && ./slowdns.sh
 sleep 2
 wget -q -O udp.sh https://raw.githubusercontent.com/gigclone/asu/main/udp/udp.sh && chmod +x udp.sh && ./udp.sh
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
