@@ -96,6 +96,8 @@ sleep 2
 clear
 wget https://raw.githubusercontent.com/gigclone/asu/main/nginx-ssl.sh && chmod +x nginx-ssl.sh && ./nginx-ssl.sh
 
+wget https://raw.githubusercontent.com/gigclone/asu/main/ssh/set-br.sh &&  chmod +x set-br.sh && ./set-br.sh
+clear
 
 #install ssh ovpn
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
