@@ -23,7 +23,7 @@ wget -q -O /usr/bin/limit-speed "https://raw.githubusercontent.com/gigclone/asu/
 wget -q -O /usr/bin/genssl "https://raw.githubusercontent.com/gigclone/asu/main/genssl.sh"
 wget -q -O /usr/bin/autobackup "https://raw.githubusercontent.com/gigclone/asu/main/autobackup.sh"
 wget -q -O /usr/bin/clearlog "https://raw.githubusercontent.com/gigclone/asu/main/clearlog.sh"
-
+wget -q -O /usr/bin/menu-bckp "https://raw.githubusercontent.com/gigclone/asu/main/ssh/menu-bckp.sh"
 
 
 chmod +x /usr/bin/menu
@@ -47,3 +47,4 @@ chmod +x /usr/bin/limit-speed
 chmod +x /usr/bin/genssl
 chmod +x /usr/bin/autobackup
 chmod +x /usr/bin/clearlog
+chmod +x /usr/bin/menu-bckp
