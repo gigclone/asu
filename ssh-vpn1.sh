@@ -134,32 +134,20 @@ mkdir -p /home/vps/public_html
 
 # install badvpn
 cd
-cd
-wget -O /usr/bin/badvpn-udpgw https://github.com/gigclone/asu/main/badvpn/badvpn-udpgw && chmod +x  /usr/bin/badvpn-udpgw
-#system badvpn 7300
-wget -O /etc/systemd/system/svr-7300.service https://github.com/gigclone/asu/main/badvpn/svr-7300.service && chmod +x  /etc/systemd/system/svr-7300.service
-#system badvpn 7200
-wget -O /etc/systemd/system/svr-7200.service https://github.com/gigclone/asu/main/badvpn/svr-7200.service && chmod +x  /etc/systemd/system/svr-7200.service
-#system badvpn 7100
-wget -O /etc/systemd/system/svr-7100.service https://github.com/gigclone/asu/main/badvpn/svr-7100.service && chmod +x  /etc/systemd/system/svr-7100.service
-
-#reboot system 7100
-systemctl daemon-reload
-systemctl start svr-7100.service
-systemctl enable svr-7100.service
-systemctl restart svr-7100.service
-
-#reboot system 7200
-systemctl daemon-reload
-systemctl start svr-7200.service
-systemctl enable svr-7200.service
-systemctl restart svr-7200.service
-
-#reboot system 7300
-systemctl daemon-reload
-systemctl start svr-7300.service
-systemctl enable svr-7300.service
-systemctl restart svr-7300.service
+wget -O /usr/bin/badvpn-udpgw "https://raw.githubusercontent.com/gigclone/asu/main/ssh/newudpgw"
+chmod +x /usr/bin/badvpn-udpgw
+sed -i '$ i\screen -dmS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7100 --max-clients 500' /etc/rc.local
+sed -i '$ i\screen -dmS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7200 --max-clients 500' /etc/rc.local
+sed -i '$ i\screen -dmS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7300 --max-clients 500' /etc/rc.local
+screen -dmS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7100 --max-clients 500
+screen -dmS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7200 --max-clients 500
+screen -dmS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7300 --max-clients 500
+screen -dmS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7400 --max-clients 500
+screen -dmS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7500 --max-clients 500
+screen -dmS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7600 --max-clients 500
+screen -dmS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7700 --max-clients 500
+screen -dmS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7800 --max-clients 500
+screen -dmS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7900 --max-clients 500
 
 # setting port ssh
 cd
