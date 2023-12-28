@@ -6,16 +6,16 @@ cd
 apt install python -y
 
 cd /root
-wget -qO /usr/bin/ssh-wsenabler "${REPO}ssh-wsenabler"
-wget -qO /usr/bin/proxy3.js "${REPO}proxy3.js"
-wget -qO /usr/local/bin/ws-dropbear "${REPO}ws-dropbear"
-wget -qO /usr/local/bin/ws-stunnel "${REPO}ws-stunnel"
-wget -qO /usr/local/bin/ws-openssh "${REPO}ws-openssh"
-wget -qO /usr/local/bin/ws-ovpn "${REPO}ws-ovpn"
-wget -qO /etc/systemd/system/ws-ovpn.service "${REPO}ws-ovpn.service"
-wget -qO /etc/systemd/system/ws-dropbear.service "${REPO}ws-dropbear.service"
-wget -qO /etc/systemd/system/ws-stunnel.service "${REPO}ws-stunnel.service"
-wget -qO /etc/systemd/system/ws-openssh.service "${REPO}ws-openssh.service"
+wget -qO /usr/bin/ssh-wsenabler "https://raw.githubusercontent.com/gigclone/asu/main/ah/ssh-wsenabler"
+wget -qO /usr/bin/proxy3.js "https://raw.githubusercontent.com/gigclone/asu/main/ah/proxy3.js"
+wget -qO /usr/local/bin/ws-dropbear "https://raw.githubusercontent.com/gigclone/asu/main/ah/ws-dropbear"
+wget -qO /usr/local/bin/ws-stunnel "https://raw.githubusercontent.com/gigclone/asu/main/ah/ws-stunnel"
+wget -qO /usr/local/bin/ws-openssh "https://raw.githubusercontent.com/gigclone/asu/main/ah/ws-openssh"
+wget -qO /usr/local/bin/ws-ovpn "https://raw.githubusercontent.com/gigclone/asu/main/ah/ws-ovpn"
+wget -qO /etc/systemd/system/ws-ovpn.service "https://raw.githubusercontent.com/gigclone/asu/main/ah/ws-ovpn.service"
+wget -qO /etc/systemd/system/ws-dropbear.service "https://raw.githubusercontent.com/gigclone/asu/main/ah/ws-dropbear.service"
+wget -qO /etc/systemd/system/ws-stunnel.service "https://raw.githubusercontent.com/gigclone/asu/main/ah/ws-stunnel.service"
+wget -qO /etc/systemd/system/ws-openssh.service "https://raw.githubusercontent.com/gigclone/asu/main/ah/ws-openssh.service"
 sleep 1
 chmod +x /usr/bin/ssh-wsenabler
 chmod +x /usr/bin/proxy3.js
