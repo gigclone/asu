@@ -1,5 +1,5 @@
 #!/bin/bash
-REPO="https://raw.githubusercontent.com/gigclone/asu/main/"
+REPO="https://raw.githubusercontent.com/gigclone/asu/main/ah/"
 function setopserviswebsoket(){
 systemctl stop sshws.service
 tmux kill-session -t sshws
