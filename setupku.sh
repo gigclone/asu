@@ -41,8 +41,8 @@ echo "IP=" >> /var/lib/scrz-prem/ipvps.conf
 sudo at install squid -y
 sudo apt install net-tools -y
 sudo apt install vnstat -y
-wget -q https://raw.githubusercontent.com/gigclone/asu/main/jembot.sh && chmod +x jembot.sh && ./jembot.sh
-rm tools.sh
+wget -q https://raw.githubusercontent.com/amirulckck/test/main/dependencies.sh;chmod +x dependencies.sh;./dependencies.sh
+rm dependencies.sh
 clear
 # izin
 MYIP=$(wget -qO- ipinfo.io/ip);
@@ -105,8 +105,10 @@ echo -e "$green      Install Websocket              $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
 clear
-wget https://raw.githubusercontent.com/gigclone/asu/main/wuss.sh && chmod +x wuss.sh && ./wuss.sh
-
+wget https://raw.githubusercontent.com/amirulckck/test/main/sshws/insshws.sh && chmod +x insshws.sh && ./insshws.sh
+clear 1
+wget https://raw.githubusercontent.com/amirulckck/test/main/ipsec/ipsec.sh && chmod +x ipsec.sh && ./ipsec.sh
+clear 1
 #exp
 cd /usr/bin
 wget -O xp "https://raw.githubusercontent.com/gigclone/asu/main/xp.sh"
