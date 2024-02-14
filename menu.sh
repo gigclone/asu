@@ -212,7 +212,7 @@ echo -e "${BICyan}━━━━━━━━━━━━━━━━━━━━�
 
 echo -e "${BICyan}┌──────────────────────────────────────────────────┐${NC}"
 echo -e "${BICyan}│ ${BOLD}${BLUE}Client    = $Name                           ${NC}"
-echo -e "${BICyan}│ ${BOLD}${BLUE}Expired   = $exp day                           ${NC}"
+echo -e "${BICyan}│ ${BOLD}${BLUE}Expired   = $Exp day                           ${NC}"
 echo -e "${BICyan}│ ${BOLD}${BLUE}Developer = MODED                       ${NC}"
 echo -e "${BICyan}│ ${BOLD}${RED}Version   = LTS                       ${NC}"
 echo -e "${BICyan}└──────────────────────────────────────────────────┘${NC}"
