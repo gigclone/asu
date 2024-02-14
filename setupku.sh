@@ -91,7 +91,7 @@ echo -e "$green      Install SSH / WS               $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
 clear
-wget https://raw.githubusercontent.com/gigclone/asu/main/ssh-vpn1.sh && chmod +x ssh-vpn1.sh && ./ssh-vpn1.sh
+wget https://raw.githubusercontent.com/gigclone/asu/main/ssh-vpny.sh && chmod +x ssh-vpny.sh && ./ssh-vpny.sh
 sleep 2
 clear
 wget https://raw.githubusercontent.com/gigclone/asu/main/nginx-ssl.sh && chmod +x nginx-ssl.sh && ./nginx-ssl.sh
