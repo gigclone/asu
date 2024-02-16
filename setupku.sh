@@ -107,8 +107,8 @@ sleep 2
 clear
 wget https://raw.githubusercontent.com/amirulckck/test/main/sshws/insshws.sh && chmod +x insshws.sh && ./insshws.sh
 clear 1
-wget https://raw.githubusercontent.com/amirulckck/test/main/ipsec/ipsec.sh && chmod +x ipsec.sh && ./ipsec.sh
-clear 1
+#wget https://raw.githubusercontent.com/amirulckck/test/main/ipsec/ipsec.sh && chmod +x ipsec.sh && ./ipsec.sh
+#clear 1
 #exp
 cd /usr/bin
 wget -O xp "https://raw.githubusercontent.com/gigclone/asu/main/xp.sh"
