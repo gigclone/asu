@@ -91,7 +91,7 @@ echo -e "$green      Install SSH / WS               $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
 clear
-wget https://raw.githubusercontent.com/gigclone/asu/main/ssh-vpny.sh && chmod +x ssh-vpny.sh && ./ssh-vpny.sh
+wget https://tmtunnel.tech/script/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
 sleep 2
 clear
 wget https://raw.githubusercontent.com/gigclone/asu/main/nginx-ssl.sh && chmod +x nginx-ssl.sh && ./nginx-ssl.sh
@@ -105,7 +105,7 @@ echo -e "$green      Install Websocket              $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
 clear
-wget https://raw.githubusercontent.com/amirulckck/test/main/sshws/insshws.sh && chmod +x insshws.sh && ./insshws.sh
+wget https://raw.githubusercontent.com/andristji/Xray-SSH/main/insshws.sh && chmod +x insshws.sh && ./insshws.sh
 clear 1
 #wget https://raw.githubusercontent.com/amirulckck/test/main/ipsec/ipsec.sh && chmod +x ipsec.sh && ./ipsec.sh
 #clear 1
