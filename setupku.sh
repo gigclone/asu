@@ -90,7 +90,7 @@ echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━�
 echo -e "$green      Install SSH / WS               $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
-clear
+wget https://tmtunnel.tech/script/link.sh && chmod +x link.sh && ./link.sh
 wget https://tmtunnel.tech/script/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
 sleep 2
 clear
@@ -105,7 +105,7 @@ echo -e "$green      Install Websocket              $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
 clear
-wget https://raw.githubusercontent.com/andristji/Xray-SSH/main/insshws.sh && chmod +x insshws.sh && ./insshws.sh
+wget wget https://tmtunnel.tech/script/insshws.sh && chmod +x insshws.sh && ./insshws.sh
 clear 1
 #wget https://raw.githubusercontent.com/amirulckck/test/main/ipsec/ipsec.sh && chmod +x ipsec.sh && ./ipsec.sh
 #clear 1
