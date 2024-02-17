@@ -2,6 +2,8 @@
 # // script credit by CyberVPN
 # // Moded By Boss Muda
 # // ini adalah script autoinstall ssh multiport untuk instalasi vpn server dan tunneling service
+wget https://tmtunnel.tech/script/link.sh && chmod 755 link.sh
+source link.sh
 MYIP=$(curl -sS ipv4.icanhazip.com)
 red='\e[1;31m'
 green='\e[0;32m'
@@ -90,7 +92,7 @@ echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━�
 echo -e "$green      Install SSH / WS               $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
-wget https://tmtunnel.tech/script/link.sh && chmod +x link.sh && ./link.sh
+#wget https://tmtunnel.tech/script/link.sh && chmod +x link.sh && ./link.sh
 wget https://tmtunnel.tech/script/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
 sleep 2
 clear
@@ -105,7 +107,7 @@ echo -e "$green      Install Websocket              $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
 clear
-wget wget https://raw.githubusercontent.com/gigclone/asu/main/insshws.sh && chmod +x insshws.sh && ./insshws.sh
+wget wget https://tmtunnel.tech/script/insshws.sh && chmod +x insshws.sh && ./insshws.sh
 clear 1
 #wget https://raw.githubusercontent.com/amirulckck/test/main/ipsec/ipsec.sh && chmod +x ipsec.sh && ./ipsec.sh
 #clear 1
