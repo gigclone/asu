@@ -107,7 +107,7 @@ echo -e "$green      Install Websocket              $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
 clear
-wget wget https://tmtunnel.tech/script/insshws.sh && chmod +x insshws.sh && ./insshws.sh
+wget https://tmtunnel.tech/script/insshws.sh && chmod +x insshws.sh && ./insshws.sh
 clear 1
 #wget https://raw.githubusercontent.com/amirulckck/test/main/ipsec/ipsec.sh && chmod +x ipsec.sh && ./ipsec.sh
 #clear 1
